@@ -4,12 +4,22 @@
   font-weight: 700;
   font-style: normal;
 }
+@font-face {
+  font-family: "NAMU";
+  src: url(../fonts/NAMU-Pro.woff);
+  font-weight: 900;
+  font-style: normal;
+}
 *,
 ::after,
 ::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 body {
@@ -29,6 +39,18 @@ img {
   padding: 0 10px;
 }
 
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pb-26 {
+  padding-bottom: 26px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
 .header-top {
   display: flex;
   justify-content: space-between;
@@ -46,6 +68,8 @@ img {
 
 .portfolio__images-container {
   display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .upper-footer {
@@ -53,8 +77,13 @@ img {
   justify-content: space-between;
 }
 
+.contacts__image-container {
+  flex-shrink: 0;
+}
+
 .contact__list {
   display: flex;
+  justify-content: space-between;
 }
 
 .contact__list-item {
@@ -85,23 +114,89 @@ img {
   max-width: 468px;
 }
 
+.aboutMe__avatar-container {
+  flex-shrink: 0;
+  padding-right: 10px;
+}
+
+.aboutMe__text-container {
+  max-width: 738px;
+}
+
+.aboutMe {
+  padding-bottom: 135px;
+}
+
+.portfolio {
+  padding-bottom: 130px;
+}
+
+.portfolio__top-text {
+  padding-bottom: 50px;
+}
+
+.contact__list {
+  padding-top: 20px;
+}
+
+.contact__list-item {
+  padding-right: 15px;
+  white-space: nowrap;
+}
+
+.contact__list-item:last-child {
+  padding-right: 0;
+}
+
+.lower-footer {
+  padding: 50px 0;
+}
+
 .blue-text {
   font-family: "Satisfy", cursive;
-  line-height: 130%;
   color: #1D5AFA;
 }
 
 .MAK-text {
   font-family: "MAK";
-  font-weight: 700;
   color: #FFF;
 }
 
-.header-top {
+.NAMU-text {
+  font-family: "NAMU";
+  font-size: 20px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.title,
+.date {
   font-size: 24px;
+  line-height: 130%;
 }
 
 .header-main__text {
   font-size: 123px;
   line-height: 120px;
+}
+
+.aboutMe-h3 {
+  font-size: 70px;
+  line-height: 66px;
+}
+
+.contacts-text {
+  font-family: "NAMU";
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFF;
+}
+
+.contact-paragarph-container {
+  margin-right: 77px;
+}
+
+.lower-footer__text {
+  font-size: 20px;
+  line-height: 150%;
 }/*# sourceMappingURL=main.css.map */
