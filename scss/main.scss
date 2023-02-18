@@ -81,6 +81,7 @@ img {
 .contact__list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .contact__list-item {
