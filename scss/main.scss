@@ -27,6 +27,7 @@ img {
     max-width: 1122px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 10px;
 }
 
 // macro layout
@@ -37,7 +38,8 @@ img {
 }
 
 .header-main {
-    ;
+    display: flex;
+    position: relative;
 }
 
 .aboutMe {
@@ -67,11 +69,50 @@ img {
     justify-content: center;
 }
 
+// micro layout
+// .border-margin {
+//     margin: 0 10px;
+// }
+
+.header-top {
+    padding: 60px 0px;
+}
+
+.header-main {
+    padding-bottom: 224px;
+}
+
+.bigAvatar-container {
+    flex-shrink: 0;
+    position: absolute;
+    z-index: -5;
+    right: 0;
+}
+
+.header-main__text-container {
+    max-width: 468px;
+}
+
+
 // styling
-.header-main__text {
+.blue-text {
+    font-family: 'Satisfy', cursive;
+    line-height: 130%;
+    color: #1D5AFA;
+}
+
+.MAK-text {
     font-family: "MAK";
     font-weight: 700;
     color: #FFF;
+}
+
+.header-top {
+    font-size: 24px;
+}
+
+.header-main__text {
     font-size: 123px;
     line-height: 120px;
 }
+
