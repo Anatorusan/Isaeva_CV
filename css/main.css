@@ -33,10 +33,10 @@ img {
 }
 
 .wrapper {
-  max-width: 1142px;
+  max-width: 1162px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .pr-15 {
@@ -177,8 +177,8 @@ img {
 }
 
 .header-main__text {
-  font-size: 123px;
-  line-height: 120px;
+  font-size: clamp(48px, 9.1vw, 123px);
+  line-height: clamp(44px, 9.1vw, 120px);
 }
 
 .aboutMe-h3 {
