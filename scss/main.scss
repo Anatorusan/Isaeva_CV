@@ -122,16 +122,16 @@ img {
 // micro layout
 
 .header-contaier {
-    padding-bottom: 224px;
+    padding-bottom: clamp(70px, 9vw,129px);
 }
 
 .header-top {
     padding: 60px 0px;
 }
 
-// .header-main {
-//     padding-bottom: 224px;
-// }
+.header-main {
+    height: clamp(134px, 25vw,354px);
+}
 
 .bigAvatar-container {
     flex-shrink: 0;
