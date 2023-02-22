@@ -26,6 +26,16 @@ body {
   background-color: #2E282A;
 }
 
+@media (max-width: 767px) {
+  .mobile-hidden {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) {
+  .desktop-hidden {
+    display: none !important;
+  }
+}
 img {
   max-width: 100%;
   height: auto;
@@ -104,6 +114,10 @@ img {
   justify-content: center;
 }
 
+.avatar-backg {
+  background-image: url("../pictures/avatar_vert.png");
+}
+
 @media (min-width: 666px) {
   .upper-footer {
     flex-direction: row;
@@ -127,7 +141,7 @@ img {
 }
 
 .header-main {
-  height: clamp(134px, 25vw, 354px);
+  height: 550px;
 }
 
 .bigAvatar-container {
@@ -184,6 +198,9 @@ img {
     flex-shrink: 0;
     padding-right: 20px;
     display: block;
+  }
+  .header-main {
+    height: 354px;
   }
 }
 .blue-text {
