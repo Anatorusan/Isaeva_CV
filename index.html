@@ -28,22 +28,25 @@
                         <img src="pictures/avatar_big.png" alt="big avatar" width="738" height="354">
                     </div>
                 </div>
-                <div class="header-main desktop-hidden">
-                    <div class="header-main__text-container avatar-backg">
+                <div class="header-main desktop-hidden header-main-grid">
+                    <div class="header-main__text-container-mobile header-main__text-container-grid">
                         <h1 class="header-main__text MAK-text">Natalia<br> Isaeva</h1>
                     </div>
-                    <!-- <div class="bigAvatar-container">
-                        <img src="pictures/avatar_vert.png" alt="big avatar vertical" width="350" height="550">
-                    </div> -->
+                    <div class="bigAvatar-container-mobile bigAvatar-container-mobile-grid">
+                        <img src="pictures/avatar_vert_1.5.png" alt="big avatar vertical" width="525" height="825">
+                    </div>
                 </div>
             </header>
         </div>
         <section class="aboutMe">
             <div class="aboutMe__avatar-container">
-                <img src="pictures/avatar_aboutme.png" alt="baout me avatar" width="256" height="266">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="pictures/avatar_aboutme.png" alt="about me avatar" width="256" height="266">
+                    <img src="pictures/avatar_aboutme_x1.5.png" alt="about me avatar" width="385" height="400">
+                </picture>
             </div>
             <div class="aboutMe__text-container">
-                <h3 class="aboutMe-h3 MAK-text pb-50 mb-0">About me.</h3>
+                <h3 class="aboutMe-h3 MAK-text pb-25-50 mb-0">About me.</h3>
                 <p class="NAMU-text">Hello. I am Natalia Isaeva who is looking for a Junior Web Designer Job.
                     Recently, I graduated from the Projector Institute.
                     There were completed one-year Web Design courses including projects
@@ -53,30 +56,33 @@
             </div>
         </section>
         <section class="portfolio">
-            <div class="portfolio__top-text">
-                <h3 class="aboutMe-h3 MAK-text pb-50">Portfolio.</h3>
+            <div class="portfolio__top-text pb-25-50">
+                <h3 class="aboutMe-h3 MAK-text pb-25-50">Portfolio.</h3>
                 <p class="NAMU-text">Please see my <a href="https://www.figma.com/file/CCVYCOcPxb96qt8bkoZulV/portfolio-Isaeva-
                     Natalia?node-id=0%3A1&t=umwzCPrfq32JyBt9-1">portfolio</a> based on works with customers below.</p>
             </div>
             <div class="portfolio__images-container">
                 <div class="portfolio__image-container">
-                    <img src="pictures/portfol_1.png" alt="construction website" width="354" height="390">
+                    <img src="pictures/portfol_1_x2.png" alt="construction website" width="708" height="780">
                 </div>
                 <div class="portfolio__image-container">
-                    <img src="pictures/portfol_2.png" alt="cheese website" width="354" height="390">
+                    <img src="pictures/portfol_2_x2.png" alt="cheese website" width="708" height="780">
                 </div>
                 <div class="portfolio__image-container">
-                    <img src="pictures/portfol_3.png" alt="maria pryivachenk landing" width="354" height="390">
+                    <img src="pictures/portfol_3_x2.png" alt="maria pryivachenk landing" width="708" height="780">
                 </div>
             </div>
         </section>
         <footer>
             <div class="upper-footer">
                 <div class="contacts__image-container">
-                    <img src="pictures/avatar_footer.png" alt="avatar footer" width="258" hight="194">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="pictures/avatar_footer.png" width="258" hight="194">
+                        <img src="pictures/avatar_footer_vert.png" alt="avatar footer" width="350" hight="263">
+                    </picture>
                 </div>
                 <div class="contact__text-container">
-                    <h3 class="aboutMe-h3 MAK-text pb-26">Contacts.</h3>
+                    <h3 class="aboutMe-h3-contacts MAK-text pb-25">Contacts.</h3>
                     <div class="contact-paragarph-container">
                         <p class="NAMU-text">Please do not hesitate to contact me. I will be glad to join your team.
 
