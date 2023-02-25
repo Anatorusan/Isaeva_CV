@@ -295,4 +295,9 @@ img {
 .lower-footer__text {
   font-size: 20px;
   line-height: 150%;
+}
+
+.icon {
+  width: 35px;
+  height: 30px;
 }/*# sourceMappingURL=main.css.map */
